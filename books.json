@@ -1,0 +1,27 @@
+{
+  "books-table": {
+    "book": [
+      {
+        "Title": "R Cookbook: Proven Recipes for Data Analysis, Statistics, and Graphics",
+        "Author": "Paul Teetor",
+        "Publisher": "O'Reilly Media",
+        "Pages": "438",
+        "Rating": "4.5"
+      },
+      {
+        "Title": "R for Data Science: Import, Tidy, Transform, Visualize, and Model Data",
+        "Author": "Hadley Wickham",
+        "Publisher": "O'Reilly Media",
+        "Pages": "522",
+        "Rating": "5"
+      },
+      {
+        "Title": "R Graphics Cookbook: Practical Recipes for Visualizing Data",
+        "Author": "Winston Chang",
+        "Publisher": "O'Reilly Media",
+        "Pages": "416",
+        "Rating": "4.5"
+      }
+    ]
+  }
+}
