@@ -1,0 +1,32 @@
+---
+title: "Google Recommender"
+author: "David Quarshie"
+date: "November 8, 2017"
+output:
+ prettydoc::html_pretty:
+    theme: architect
+    highlight: github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Goal  
+Looking at the way Google has integrated recommendations in all of their apps, we want to investigate their scenario design. Google is taking adavantage of having user search data to recommend them with stories that they may be interested in, places they may want to visit, music they may like, etc. The feature is very useful...sometimes to the point that some users (me) forget what they wanted to Google in the first place.    
+
+![Google Image](https://github.com/dquarshie89/Data607/blob/master/google-now-new.jpg?raw=true)
+
+## Scenario Design  
+Scenario Design is an easy-to-use "three question framework" that helps you in making sure that the information in your analysus work takes UX (user experience) into account:
+
+![Three Question Framework:](https://github.com/dquarshie89/Data607/blob/master/ScenarioDesign.png?raw=true)  
+
+1. Who are your target users?  
+Anyone who uses Google for their various needs. Users could utilize search, maps, music, etc.  
+
+2. What are their key goals?  
+They want to introduce users to things that may interest them. By having users find more things they like by using the Google apps they are more likely to keep on using the apps for their needs.  
+
+3. How can you help them acheive their goals?  
+We can help by providing insights on some ill informed recommendations. A recommendation for something that was searched for once may turn off a user to use the apps.  
